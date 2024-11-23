@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html,
+html,
 body {
   margin: 0;
   padding: 0;
@@ -50,7 +50,7 @@ body {
   textarea {
     @apply m-1 rounded  bg-card p-1;
   }
-} */
+}
 
 @layer components {
   .icon {
