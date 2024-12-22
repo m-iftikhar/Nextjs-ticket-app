@@ -1,10 +1,13 @@
+import EditTicketForm from '@/app/(components)/EditTicketForm';
 import React from 'react';
 
 const TicketPage = ({ params }) => {
-  const { ticketId } = params; // Destructure ticketId from params if params is an object
+   
 
   return (
-    <div>Ticket {ticketId}</div>
+    <div>
+      <EditTicketForm/>
+    </div>
   );
 };
 
